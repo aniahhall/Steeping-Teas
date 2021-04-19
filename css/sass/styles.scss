@@ -1,0 +1,438 @@
+$sm: 567px;
+$md:768px;
+$lg:992px;
+$xl:1200px;
+$green:#2D848A;
+$red:#6B0F1A;
+$purple:#625480;
+$black:#002A22;
+$tan:#FAF9F5;
+$oswald:'Oswald', sans-serif;
+$mont:'Montserrat', sans-serif;
+
+
+.container{
+  background-color: $tan;
+}
+h3{
+  font-family: $oswald;
+  color:$red;
+}
+h2{
+  font-family: $oswald;
+  color:$green;
+  font-size: 1.2em;
+}
+.writer{
+  font-family: $mont;
+  font-style: italic;
+  color:$green;
+
+}
+.teat{
+
+  .writer{
+    font-family: $mont;
+    font-style: italic;
+    color:$green;
+
+  }
+  .time{
+   border-top: 1em solid $green;
+  padding-top: 1em;
+  border-bottom: 1em solid $green;
+  padding-bottom: 3em;
+}
+  p{
+    color:$black;
+    font-family: $mont;
+  }
+  a{
+    font-family: $mont;
+    color:$green;
+    font-style: italic;
+    font-weight: 300;
+  }
+  img{
+    width:35%;
+    margin-top: 3em;
+    margin-left: 14em;
+  }
+
+}
+
+h4{
+  background-color:$red;
+  font-family: $oswald;
+  color:#FAF9F5;
+  padding:.5em;
+  margin-top:1em;
+}
+
+aside{
+  img{
+    border-left:.5em solid $red;
+    padding-left:0.5em;
+  }
+  p{font-family:$mont;
+  font-style: italic;
+}
+}
+
+.small{
+  img{
+    width:125%;
+  }
+}
+section{
+  font-family: $mont;
+  font-style: italic;
+  font-weight: 400;
+  color:$green;
+  margin-bottom:2em;
+  margin-top:2em;
+  font-size: 1.5em;
+  text-align: center;
+}
+main{
+  h1{
+    font-family: $mont;
+    color:$green;
+    font-weight: 300;
+    margin-left: .2em;
+    text-align: center;
+
+  @media(min-width: $lg){
+    text-align: left;
+    font-size: 36px;
+  }
+  h5{
+
+  }
+  }
+  .search{
+    margin-left: 5.7em;
+height: 2.3em;
+margin-top: 1em;
+text-align: right;
+border: solid $green .1em;
+font-family: $mont;
+background-color: #FAF9F5;
+
+    @media(min-width:$md){
+      margin-left: 17.5em;
+    }
+    @media(min-width:$lg){
+
+      margin-left: 12em;
+
+}
+
+    @media(min-width:$xl){
+      margin-left: 20.1em;
+}
+}
+  ul{
+    a{
+      font-family:$oswald;
+      color:$red;
+      margin-top:1em;
+      font-size:1.5em
+    }
+    a:hover{
+      color:$purple;
+      text-decoration: none;
+    }
+
+  }
+.list{
+  a{
+    font-family:$oswald;
+    color:$green;
+  }
+}
+}
+.arrow{
+  width:3%;
+}
+.arrows{
+  width:8%;
+  @media(min-width:$md){
+    width:10%;
+  }
+}
+.arrowss{
+  width:23%;
+}
+.share{
+  text-decoration:none
+}
+footer{
+  margin-top:2em;
+
+
+      border-top: .3em $red solid;
+
+margin-bottom:1em;
+   form{
+
+ padding-bottom:2em;
+     p{
+       font-family:$oswald;
+       color:$red;
+       font-size: 1.5em;
+       margin-bottom:.25em;
+       margin-top:.3em;
+
+     }
+     input{
+       font-family:$mont;
+       padding:.25em;
+     }
+     }
+     a{
+       color:$red;
+       margin-left:1em;
+       font-family: $mont;
+       margin-bottom:1em;
+       font-size:1em;
+     }
+     a:hover{
+       color:$green;
+       font-style: italic;
+       text-decoration:none;
+     }
+   }
+
+   #email{
+     width: 20em;
+     font-style:italic;
+     font-size:1em;
+     padding-left:.25em;
+     background-color: $tan;
+     border: solid .15em $red;
+        @media(min-width:$sm){
+       width: 30em ;
+      }
+       @media(min-width:$md){
+         width: 12.5em ;
+       }
+       @media(min-width:$lg){
+         width:17em;
+       }
+       @media(min-width:$xl){
+         width:21em;
+       }
+   }
+   #submit{
+     margin-top: .5em;
+    font-size: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: solid .15em $red;
+    background-color:$tan;
+   }
+   #submit:hover{
+     background-color: $red;
+     color:$tan;
+   }
+header{
+  a{
+    font-family: $mont;
+    color:$red;
+        padding-left: 9px;
+  }
+  a:hover{
+    color:$purple;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  #log{
+    margin-right: 38em;
+
+    @media(min-width:$xl){
+      margin-right: 49em;
+  }
+}
+}
+#mySidebar{
+  background-color: $red;
+}
+#side{
+  background-color:$tan;
+border:none;
+font-family: $oswald;
+color:$red;
+font-style: italic;
+}
+
+article{
+  h1{
+    background-color: $green;;
+    color: $tan;
+    font-family: "Oswald", sans-serif;
+    padding-bottom: .3em;
+    padding-top: 0.3em;
+    padding-left: .3em;
+    text-align: left;
+    font-size: 1.8em;
+}
+p{
+  font-family: "Oswald", sans-serif;
+color: #6B0F1A;
+padding-left: 10em;
+font-size: 1em;
+padding-top: .5em;
+margin-bottom: 0;
+
+@media(min-width:$md){
+  padding-left: 5em;
+}
+}
+
+td{
+  font-family: $mont;
+  color:$green;
+  padding-left:5em;
+
+  @media(min-width:$md){
+  padding-left: 1.5em;
+    font-size: .85em;
+    padding-bottom: .45em;
+  }
+}
+}
+.directions{
+  padding-left:0px;
+  li{
+    font-family:$oswald;
+    font-size: 1.125em;
+    color:$black;
+    list-style: none;
+    padding-left:0px;
+    padding-bottom:.2em;
+
+    p{
+      font-family: $mont;
+      font-size:.85em;
+      color:$black;
+    }
+  }
+}
+.dir{
+  background-color: $green;;
+  color: $tan;
+  font-family: "Oswald", sans-serif;
+  padding-bottom: .3em;
+  padding-top: 0.3em;
+  padding-left: .3em;
+  text-align: left;
+  font-size: 1.8em;
+  margin-left: 0;
+}
+.cap{
+  font-family:$mont;
+  font-weight: 300;
+  font-style: italic;
+  color:$purple;
+  text-align: center;
+  font-size:1.2em;
+  @media(min-width:$lg){
+    text-align: left;
+  }
+}
+#active{
+  color:$green;
+  font-style:italic;
+
+}
+
+.filterDiv {
+  float: left;
+  color: $green;
+  width: 100px;
+  line-height:3em;
+  text-align: left;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.tcontainer {
+  margin-top: .5em;
+  overflow: hidden;
+
+  li{
+    margin-top: 2em;
+  }
+
+  p{
+    font-family: $mont;
+    font-size: .75em;
+    font-style: italic;
+    font-weight: 300;
+  }
+}
+
+/* Style the buttons */
+.btn {
+  border: .3em $green solid;
+  padding: 12px 16px;
+  background-color: $green;
+  cursor: pointer;
+  color:$green;
+  font-family: $mont;
+  padding-right:1em;
+
+}
+
+.btn:hover {
+  border-bottom: .15em $green solid;
+  color:$tan;
+}
+
+.btn.active {
+  border: .15em $green solid;
+  background-color: $tan;
+  color: $green;
+  outline:none;
+}
+.filt{
+  display: inline-flex;
+border-bottom: solid .3em $green;
+padding-bottom: 1em;
+padding-top: 2em;
+
+button{
+  font-size:.85em;
+  color: $green;
+
+
+  @media(min-width: $md){
+    margin-left:.5em;
+  }
+  @media(min-width: $xl){
+    margin-left:1em;
+  }
+}
+}
+
+nav{
+  color:$tan;
+  font-family: $mont;
+}
+.stack{
+  width:20%;
+}
+.but{
+  background-color: $tan;
+  text-decoration:none;
+  border: none;
+}
+.fa-search{
+  color:$green;
+  margin-left: .7em;
+margin-top: 1.5em;
+}
